@@ -1,0 +1,16 @@
+<!--about.wxml-->
+<view class='about'>
+<view class='about-top'>
+  <view class='about-img'>
+    <image  src='{{image}}' background-size='cover'></image>
+  </view>
+  <view class='about-title'>{{title}}</view>
+  <view class='about-desc'>{{desc}}</view>
+</view>
+<view class='about-bottom'>
+  <view class='about-con'>联系方式</view>
+  <view>地址：{{addr}}</view>
+  <view>联系电话：{{phone}}</view>
+  <view>邮箱地址：{{email}}</view>
+</view>
+</view>

@@ -1,0 +1,45 @@
+/* pages/list/list.wxss */
+.warp{
+  height: 100%;
+  padding: 20rpx;
+  display: flex;
+  flex-direction: column;
+}
+navigator{
+  overflow: hidden;
+}
+.lists{
+  margin-bottom: 20rpx;
+  height: 200rpx;
+  position: relative;
+}
+.img{
+  float: left;
+}
+.list-img{
+  display: block;
+  width: 200rpx;
+  height: 200rpx;
+}
+.info{
+  float: left;
+  width: 400rpx;
+  height: 200rpx;
+  padding: 20rpx 0 0 40rpx;
+}
+.list-title{
+  font-size: 50rpx;
+  font-weight: bold;
+}
+.list-time{
+  font-size: 30rpx;
+  color: #aaa;
+  bottom: 0;
+  position: absolute;
+}
+.more{
+  text-align: center;
+  color: #aaa;
+  margin: 30px;
+  font-size: 12px;
+}

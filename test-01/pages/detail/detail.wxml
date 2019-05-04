@@ -1,0 +1,12 @@
+<!--detail.wxml-->
+<view class='warp'>
+  <view class='detail-title'>{{info.title}}</view>
+   <view class='detail'>
+    <text class='author'>作者：{{info.author}}</text>
+    <text class='curTime'>发布时间：{{info.curTime}}</text>
+   </view>
+  <view class='detail-img'>
+    <image class='list-img' src="{{info.image}}" background-size='cover'></image>
+  </view>
+  <view class='detail-content'>{{info.desc}}</view>
+</view>

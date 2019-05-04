@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/list/list",
+    "pages/detail/detail",
+    "pages/about/about",
+    "pages/form/form",
+    "pages/index/index",
+    "pages/logs/logs"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "CatDemo",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color":"#000",
+    "backgroundColor":"#fff",
+    "list": [
+      {
+        "iconPath":"images/home1.png",
+        "selectedIconPath":"images/home2.png",
+        "pagePath": "pages/list/list",
+        "text": "首页"
+      },
+      {
+        "iconPath": "images/log1.png",
+        "selectedIconPath": "images/log2.png",
+        "pagePath": "pages/about/about",
+        "text": "关于我们"
+      },
+      {
+        "iconPath": "images/log1.png",
+        "selectedIconPath": "images/log2.png",
+        "pagePath": "pages/form/form",
+        "text": "用户反馈"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
